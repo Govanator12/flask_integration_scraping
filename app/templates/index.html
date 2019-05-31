@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-1">
+        {{ response|safe }} <!-- required for rendering normal html w/ jinja -->
+      </div>
+    </div>
+  </div>
+{% endblock %}
