@@ -12,3 +12,9 @@ table.dataframe, .dataframe th, .dataframe td {
   margin-bottom: 40px;
   font-size: 0.9em;
 }
+
+#plotPoints {
+  display: block;
+  margin: 50px auto;
+  width: 100%;
+}
